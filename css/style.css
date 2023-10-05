@@ -314,7 +314,7 @@ iframe{
         cursor: pointer;
     }
     .nav__menu{
-        position:absolute;
+        position:relative;
         top:80px;
         bottom: 0;
         background: rgb(2,0,36);
@@ -333,7 +333,8 @@ iframe{
         
     }
     
-
+ .foto{display:none;
+      }
     
     
         .habilidades .contenido-seccion .fila {
