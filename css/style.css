@@ -318,7 +318,7 @@ iframe{
         top:80px;
         bottom: 0;
         background: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,1,6,1) 35%, rgba(0,212,255,1) 100%);
+        background:#008584;
         width: 100%;
         left:0;
         display: flex;
@@ -326,14 +326,16 @@ iframe{
         flex-direction: column;
         align-items: center;
         clip-path: circle(0% at top left); 
-        transition: clip-path 1s ease-in-out;
+        transition: clip-path 4.s;
     }
     .nav__input:checked + .nav__menu{
-        clip-path: circle(100% at top left);
+        clip-path: circle(150% at top left);
         
     }
 
-    
+    .foto{
+        display;none;
+    }
     
         .habilidades .contenido-seccion .fila {
             display: block;
