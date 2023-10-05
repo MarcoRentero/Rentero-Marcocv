@@ -65,7 +65,8 @@ body{
     color: #fff;
 }
 .inicio .contenido-seccion {
-    
+    margin:auto;
+    max-width:100px;
     text-align: center;
     
 }
@@ -130,7 +131,7 @@ body{
     height: 200px;
     border-radius: 50%;
     border: 5px solid #940253;
-    position: absolut;
+    position: absolute;
     left: 50%;
     top: -100px;
     transform: translateX(-50%);
@@ -331,10 +332,11 @@ iframe{
         clip-path: circle(150% at top left);
         
     }
-
-    .foto{
-        display;none;
-    }
+    
+.nav__input:checked + .nav__menu .foto{
+    display:none;
+}
+    
     
         .habilidades .contenido-seccion .fila {
             display: block;
