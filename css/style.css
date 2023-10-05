@@ -309,6 +309,9 @@ iframe{
     color:#fff;
 }
 @media (max-width:700px){
+    header{
+        position:fixed;
+    }
     .nav__label{
         display: block;
         cursor: pointer;
@@ -319,6 +322,7 @@ iframe{
         bottom: 0;
         background: #128851;
         width: 100%;
+        height:300px;
         left:0;
         display: flex;
         justify-content: space-evenly;
@@ -331,9 +335,7 @@ iframe{
         clip-path: circle(100% at center);
         
     }
-    .foto{
-        display:none;
-    }
+    
     
         .habilidades .contenido-seccion .fila {
             display: block;
