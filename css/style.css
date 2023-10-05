@@ -325,11 +325,11 @@ iframe{
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
-        clip-path: circle(0 at center);
+        clip-path: circle(0% at top left); 
         transition: clip-path 1s ease-in-out;
     }
     .nav__input:checked + .nav__menu{
-        clip-path: circle(100% at center);
+        clip-path: circle(100% at top left);
         
     }
 
