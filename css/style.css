@@ -65,8 +65,7 @@ body{
     color: #fff;
 }
 .inicio .contenido-seccion {
-    max-width: 1000px;
-    margin: auto;
+    
     text-align: center;
     
 }
@@ -131,7 +130,7 @@ body{
     height: 200px;
     border-radius: 50%;
     border: 5px solid #940253;
-    position: relative;
+    position: absolut;
     left: 50%;
     top: -100px;
     transform: translateX(-50%);
