@@ -314,7 +314,7 @@ iframe{
         cursor: pointer;
     }
     .nav__menu{
-        position:relative;
+        position:fixed;
         top:80px;
         bottom: 0;
         background: rgb(2,0,36);
