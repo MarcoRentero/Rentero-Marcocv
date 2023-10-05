@@ -9,6 +9,8 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+ 
+
 }
 .nav{
     background: #293241;
@@ -125,7 +127,8 @@ body{
 }
 
 .inicio .contenido-seccion .foto img {
-    max-width: 200px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 5px solid #940253;
     position: absolute;
@@ -326,6 +329,7 @@ iframe{
     }
     .nav__input:checked + .nav__menu{
         clip-path: circle(100% at center);
+        
     }
     .foto{
         display:none;
